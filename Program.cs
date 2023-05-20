@@ -121,49 +121,73 @@
 // }
 
 
-//_______________Задание 2________________
+//_______________ЗАДАНИЕ 2________________
 // Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 // 2, 3, 7 -> 7
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-Console.WriteLine("Введите три числа");
+// Console.WriteLine("Введите три числа");
+
+// int num = Convert.ToInt32(Console.ReadLine());
+
+
+// int num2 = Convert.ToInt32(Console.ReadLine());
+
+
+// int num3 = Convert.ToInt32(Console.ReadLine());
+
+// int max = 0;
+
+// if (num > num2)
+// {
+
+//     max=num;
+
+// }
+
+// else 
+// {
+
+//     max=num2;
+
+// }
+
+// if (max>num3)
+// {
+//     Console.Write("Число ");
+//     Console.Write(max);
+//     Console.Write(" больше.");
+// }
+
+// else
+// {
+//     max=num3;
+//     Console.Write("Число ");
+//     Console.Write(max);
+//     Console.Write(" больше.");
+// }
+
+//___________________ЗАДАНИЕ 3______________________
+// Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+// 4 -> да
+// -3 -> нет
+// 7 -> нет
+
+Console.WriteLine("Введите число");
 
 int num = Convert.ToInt32(Console.ReadLine());
 
-
-int num2 = Convert.ToInt32(Console.ReadLine());
-
-
-int num3 = Convert.ToInt32(Console.ReadLine());
-
-int max = 0;
-
-if (num > num2)
+if (num % 2 ==0)
 {
-
-    max=num;
-
-}
-
-else 
-{
-
-    max=num2;
-
-}
-
-if (max>num3)
-{
-    Console.Write("Число ");
-    Console.Write(max);
-    Console.Write(" больше.");
+Console.Write("Число ");
+Console.Write(num);
+Console.Write(" четное.");
 }
 
 else
 {
-    max=num3;
     Console.Write("Число ");
-    Console.Write(max);
-    Console.Write(" больше.");
+Console.Write(num);
+Console.Write(" не четное.");
 }
