@@ -84,6 +84,9 @@
 //     Console.WriteLine(negNum);
 //     negNum = negNum + 1;
 // }
+
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //________________Домашнее задание____________________
 //___________________ЗАДАНИЕ 1________________________
 
@@ -174,20 +177,27 @@
 // -3 -> нет
 // 7 -> нет
 
-Console.WriteLine("Введите число");
+// Console.WriteLine("Введите число");
 
-int num = Convert.ToInt32(Console.ReadLine());
+// int num = Convert.ToInt32(Console.ReadLine());
 
-if (num % 2 ==0)
-{
-Console.Write("Число ");
-Console.Write(num);
-Console.Write(" четное.");
-}
+// if (num % 2 ==0)
+// {
+// Console.Write("Число ");
+// Console.Write(num);
+// Console.Write(" четное.");
+// }
 
-else
-{
-    Console.Write("Число ");
-Console.Write(num);
-Console.Write(" не четное.");
-}
+// else
+// {
+//     Console.Write("Число ");
+// Console.Write(num);
+// Console.Write(" не четное.");
+// }
+//__________________ЗАДАНИЕ 4________________
+
+// Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+// 5 -> 2, 4
+// 8 -> 2, 4, 6, 8
+
+// 
