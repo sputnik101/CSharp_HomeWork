@@ -74,13 +74,48 @@
 // }
 //___________________Задание 4________________________
 
+// Console.WriteLine("Введите число");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// int negNum = -1*num;
+
+// while (negNum <= num)
+// {
+//     Console.WriteLine(negNum);
+//     negNum = negNum + 1;
+// }
+//________________Домашнее задание____________________
+//___________________ЗАДАНИЕ 1________________________
+
+// Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
+// a = 5; b = 7 -> max = 7
+// a = 2 b = 10 -> max = 10
+// a = -9 b = -3 -> max = -3
+
 Console.WriteLine("Введите число");
+
 int num = Convert.ToInt32(Console.ReadLine());
 
-int negNum = -1*num;
+Console.WriteLine("Введите число");
 
-while (negNum <= num)
+int num2 = Convert.ToInt32(Console.ReadLine());
+
+if (num > num2)
 {
-    Console.WriteLine(negNum);
-    negNum = negNum + 1;
+
+    Console.Write("Число ");
+    Console.Write(num);
+    Console.Write(" больше, чем ");
+    Console.Write(num2);
+
+}
+
+else 
+{
+
+    Console.Write("Число ");
+    Console.Write(num2);
+    Console.Write(" больше, чем ");
+    Console.Write(num);
+
 }
