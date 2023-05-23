@@ -200,4 +200,17 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-// 
+Console.WriteLine("Введите число");
+
+int num = Convert.ToInt32(Console.ReadLine());
+
+int num1=1;
+
+Console.WriteLine("Четные числа");
+while (num1 <= num)
+{
+    if (num1 % 2 == 0)
+    {
+        
+    }
+}
